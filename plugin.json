@@ -1,0 +1,21 @@
+{
+	"id": "nodebb-plugin-blue-posts",
+	"name": "NodeBB Blue Posts",
+	"description": "Blue posts for NodeBB forums",
+	"url": "https://github.com/NodeBB/nodebb-plugin-blue-posts",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "action:app.load", "method": "init", "priority": 5
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	]
+}

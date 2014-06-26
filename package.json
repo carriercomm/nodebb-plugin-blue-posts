@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-blue-posts",
+  "version": "0.0.1",
+  "description": "Blue posts for NodeBB forums",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psychobunny/nodebb-plugin-blue-posts"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "blue",
+    "posts",
+    "blizzard"
+  ],
+  "author": {
+    "name": "psychobunny",
+    "email": "psycho.bunny@hotmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/psychobunny/nodebb-plugin-blue-posts/issues"
+  },
+  "readmeFilename": "README.md"
+}
