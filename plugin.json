@@ -4,11 +4,10 @@
 	"description": "Blue posts for NodeBB forums",
 	"url": "https://github.com/NodeBB/nodebb-plugin-blue-posts",
 	"library": "./library.js",
-	"hooks": [
-		{
-			"hook": "action:app.load", "method": "init", "priority": 5
-		}
-	],
+	"hooks": [],
+	"nbbpm": {
+		"compatibility": "^0.6.0"
+	},
 	"staticDirs": {
 		"static": "./static"
 	},
@@ -16,6 +15,6 @@
 		"static/style.less"
 	],
 	"scripts": [
-		"static/lib/main.js"
+		"static/lib"
 	]
 }
