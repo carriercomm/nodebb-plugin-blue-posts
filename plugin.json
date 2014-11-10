@@ -5,9 +5,6 @@
 	"url": "https://github.com/NodeBB/nodebb-plugin-blue-posts",
 	"library": "./library.js",
 	"hooks": [],
-	"nbbpm": {
-		"compatibility": "^0.6.0"
-	},
 	"staticDirs": {
 		"static": "./static"
 	},
